@@ -1,0 +1,7 @@
+bases:
+- ../../base
+patches:
+- deployment-patch.yaml
+- service-patch.yaml
+- route-patch.yaml
+

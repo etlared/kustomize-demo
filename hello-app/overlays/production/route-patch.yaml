@@ -1,0 +1,7 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: hello
+  namespace: kust-prod
+spec:
+  host: hello-prod.apps.ocp4.eenfach.de
