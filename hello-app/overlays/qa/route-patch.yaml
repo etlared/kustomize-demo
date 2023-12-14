@@ -2,6 +2,6 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   name: hello
-  namespace: kust-qa
+  namespace: kust-test
 spec:
   host: hello-qa.apps.ocp4.eenfach.de

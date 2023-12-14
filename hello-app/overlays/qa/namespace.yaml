@@ -1,0 +1,10 @@
+namespace:
+  - kind: Deployment
+    path: metadata/namespace
+    create: true
+  - kind: Service
+    path: metadata/namespace
+    create: true
+  - kind: Route
+    path: metadata/namespace
+    create: true

@@ -2,6 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hello
-  namespace: kust-prod
+  namespace: kust-test
 spec:
   replicas: 4

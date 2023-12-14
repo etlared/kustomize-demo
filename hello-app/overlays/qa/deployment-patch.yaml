@@ -2,6 +2,12 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hello
-  namespace: kust-qa
+  namespace: kust-test
+  labels:
+    sky: blue
 spec:
   replicas: 2
+  template:
+    metadata:
+      labels:
+        podlabel: newvalue
