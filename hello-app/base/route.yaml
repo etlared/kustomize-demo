@@ -10,7 +10,7 @@ spec:
   port:
     targetPort: 8080
   to:
-    kind: ""
+    kind: Service
     name: hello
     weight: null
 status: {}
