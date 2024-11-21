@@ -5,9 +5,9 @@ namespace: kust-qa
 resources:
 - ../../base
 patches:
-- deployment-patch.yaml
-- service-patch.yaml
-- route-patch.yaml
+- path: deployment-patch.yaml
+- path: service-patch.yaml
+- path: route-patch.yaml
 
 configurations:
 - namespace.yaml
