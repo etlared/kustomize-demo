@@ -19,7 +19,7 @@ spec:
         app: hello
     spec:
       containers:
-      - image: quay.io/olbohlen/hello-world-nginx
+      - image: quay.io/etlared/hello-world-nginx
         name: hello-world-nginx
         ports:
         - containerPort: 8080
