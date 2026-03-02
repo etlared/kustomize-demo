@@ -4,4 +4,4 @@ metadata:
   name: hello
   namespace: kust-test
 spec:
-  host: hello-qa.apps.ocp4.eenfach.de
+  host: hello-qa.apps.ocp4.example.com
